@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+ul {
+    list-style: none;
+}
+h3 {
+    margin: 0;
+    color: bisque;
+    text-align: center;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col {
+    width: 6em;
+    height: 6em;
+    font-size: 3em;
+    background-color: transparent;
+    border: none;
+    color: blanchedalmond;
+    transition: 0.5s;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    max-height: 0px;
+    overflow: hidden;
+    border-width: 2px;
+    border-radius: 2px;
+    transition: max-height 0.5s ease-out;
+}
+
