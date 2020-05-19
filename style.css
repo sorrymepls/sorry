@@ -17,7 +17,7 @@ h3 {
     color: bisque;
     text-align: center;
 }
-.btns {
+.buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
