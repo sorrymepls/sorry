@@ -3,7 +3,6 @@ body {
     font-family: 'Nunito', sans-serif;
     color: blanchedalmond;
     text-align: center;
-
 }
 
 h1 {
@@ -43,4 +42,7 @@ h3 {
 }
 hr {
     border-color: blanchedalmond;
+}
+h6 {
+    margin: 0px;
 }
